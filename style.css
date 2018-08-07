@@ -16,15 +16,34 @@
   display: flex;
 }
 .category {
+  display: flex;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   height: 300px;
   width: 500px;
+  align-items: center;
 }
 .categories {
 }
 .boxes {
   display: flex;
   flex-direction: row;
+}
+
+.politics {
+  background-color: yellow;
+}
+.technology {
+  background-color: lightblue;
+}
+
+.local {
+  background-color: green;
+}
+.opinion {
+  background-color: blue;
+}
+.sports {
+  background-color: purple;
 }
