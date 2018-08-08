@@ -5,26 +5,49 @@
   display: flex;
   justify-content: center;
 }
-.box {
+.bottom-box {
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 200px;
+  width: 25%;
+  display: flex;
+}
+.edge-box {
   align-items: center;
   flex-direction: column;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   height: 300px;
-  width: 500px;
+  width: 25%;
   display: flex;
 }
-.category {
-  display: flex;
+.middle-box {
+  align-items: center;
+  flex-direction: column;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   height: 300px;
-  width: 500px;
+  width: 50%;
+  display: flex;
+}
+.category {
+  display: flex;
+  display: inline;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 50px;
+  width: 75%;
   align-items: center;
 }
 .categories {
+  display: flex;
+  flex-direction: column;
 }
 .boxes {
   display: flex;
@@ -46,4 +69,11 @@
 }
 .sports {
   background-color: purple;
+}
+.puppy {
+  width: 95%;
+  height: 100%;
+}
+.bottom {
+  height: 150px;
 }
